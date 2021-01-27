@@ -28,7 +28,7 @@
 
 <body>
   <!-- Menú de Navegación sticky-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">Luis Pacheco</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,23 +36,33 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Contacto <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#inicio">Arribadeltó </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre <i class="fa fa-calendar-minus-o" aria-hidden="true"></i></a>
+          <a class="nav-link" href="#sobremi">Me presento</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Curricu</a>
+          <a class="nav-link" href="#cualidades">¿Porqué yo?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#curriculum">Mis andanzas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#premios">Mis laureles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aptitudes">Habilidoso en...</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">No te lo calles...</a>
         </li>
       </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
     </div>
   </nav>
+  <!--Fin del menú de navegación-->
   <!-- Inicio-->
-  <header class="masthead d-flex">
+  <header class="masthead d-flex" id="inicio">
     <div class="container text-center my-auto">
       <h1 class="mb-1">Luis Ignacio Pacheco Valverde</h1>
       <h3 class="mb-5">
@@ -62,12 +72,13 @@
     </div>
     <div class="overlay"></div>
   </header>
-
+  <!-- Fin del Inicio-->
   <!-- Sobre Mi -->
   <section class="content-section bg-light" id="sobremi">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
+          <h1>Siento ser yo el que te lo diga pero...</h1>
           <h2>Soy el perfecto diseñador para tu sitio web</h2>
           <img src="/img/1.jpeg" class="mifoto">
           <p class="lead mb-5">
@@ -137,13 +148,8 @@
 
   <!-- Curriculum-->
   <section class="callout" id="curriculum">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!
-      </h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-    </div>
+    <h1>Mis andanzas</h1>
+ 
   </section>
 
   <!-- Premios -->
@@ -153,58 +159,6 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Stationary</div>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Ice Cream</div>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Strawberries</div>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Workspace</div>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Carrousel -->
-  <section class="content-section bg-primary text-white">
-    <div class="container text-center">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -231,6 +185,11 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </div>
+  </section>
+<!-- Aptitudes-->
+  <section class="content-section bg-primary text-white" id="aptitudes">
+    <div class="container text-center">
       <h2 class="mb-4">The buttons below are impossible to resist...</h2>
       <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
       <a href="#!" class="btn btn-xl btn-dark">Look at Me!</a>
@@ -244,7 +203,7 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputEmail4">¿Tienes correo, guapo/a?</label>
-          <input type="email" class="form-control" placeholder="example@gmail.com">
+          <input type="email" class="form-control" placeholder="shumorenito19@gmail.com">
         </div>
         <div class="form-group col-md-6">
           <label for="inputAddress">¿Cómo quieres que te llame?</label>
@@ -253,8 +212,8 @@
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">A ver...¿Qué quieres?</label>
-          <textarea class="form-control anchoTextArea" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="exampleFormControlTextarea1">A ver...¿Qué quieres jefe?</label>
+          <textarea class="form-control anchoTextArea" id="exampleFormControlTextarea1" rows="3" placeholder="Luis, quiero que me hagas una página web de esas buenas buenas que tu sabes hacer, cóbrame lo que quieras"></textarea>
         </div>
       </div>
       <div class="form-group">
@@ -265,7 +224,7 @@
           </label>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">Dímelo papa </button>
+      <button type="submit" class="btn btn-primary ">Dímelo papa </button>
     </form>
   </div>
 
@@ -289,7 +248,7 @@
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; 2020 </p>
+      <p class="text-muted small mb-0">Copyright &copy; 2021 </p>
     </div>
   </footer>
 
