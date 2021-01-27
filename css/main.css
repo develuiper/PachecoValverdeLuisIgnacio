@@ -14,3 +14,13 @@
   margin-left:2.5vw; 
 }
 
+.centrar{
+  display:flex;
+  flex-direction:column;  
+  text-align:center; 
+  justify-content:center;
+  align-items:center; 
+}
+.quitarPunto{
+ list-style:none;
+}
