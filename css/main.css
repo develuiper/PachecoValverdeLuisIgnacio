@@ -3,3 +3,13 @@
     height:30rem !important;
     border-radius:10%; 
   }
+.centrarForm{
+  display:flex; 
+  text-align:center; 
+  flex-direction:column; 
+  justify-content:center; 
+}
+.anchoTextArea{
+  width:95vw; 
+  margin-left:2.5vw; 
+}
