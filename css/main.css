@@ -28,7 +28,23 @@
   max-width:50vw; 
 }
 .imagenCurr{
-   width:15vw; 
-   height:15vh;
    border-radius:20%; 
+}
+@media(max-width:768px){
+  .imagenCurr{
+     width:50vw;
+     height:50vh; 
+  }
+}
+@media(max-width:1200px){
+  .imagenCurr{
+     width:30vw;
+     height:30vh; 
+  }
+}
+@media(min-width:1200px){
+  .imagenCurr{
+     width:15vw;
+     height:15vh; 
+  }
 }
