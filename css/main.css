@@ -24,3 +24,6 @@
 .quitarPunto{
  list-style:none;
 }
+.ajustarCar{
+  max-width:50vw; 
+}
