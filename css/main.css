@@ -38,8 +38,8 @@
 }
 @media(max-width:1200px){
   .imagenCurr{
-     width:30vw;
-     height:30vh; 
+     width:20vw;
+     height:20vh; 
   }
 }
 @media(min-width:1200px){
