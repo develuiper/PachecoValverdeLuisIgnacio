@@ -30,6 +30,7 @@
 .imagenCurr{
    border-radius:20%; 
 }
+
 @media(max-width:768px){
   .imagenCurr{
      width:50vw;
@@ -38,6 +39,10 @@
   .imagenCarr{
     width:80vw; 
     height:60vh; 
+  }
+  .logo{
+    width:24vw; 
+    height:15vh; 
   }
 }
 @media(max-width:1200px){
@@ -49,6 +54,10 @@
     width:40vw; 
     height:55vh; 
   }
+  .logo{
+    width:12vw; 
+    height:10vh; 
+  }
 }
 @media(min-width:1200px){
   .imagenCurr{
@@ -58,5 +67,9 @@
   .imagenCarr{
     width:25vw; 
     height:70vh; 
+  }
+  .logo{
+    width:7vw; 
+    height:5vh; 
   }
 }
